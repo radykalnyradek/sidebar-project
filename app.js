@@ -3,7 +3,7 @@ const closeBtn = document.querySelector(".close-btn");
 const sidebar = document.querySelector("aside");
 
 showBtn.addEventListener("click", () => {
-  sidebar.classList.add("show-sidebar");
+  sidebar.classList.toggle("show-sidebar");
 });
 
 closeBtn.addEventListener("click", () => {
